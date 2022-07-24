@@ -3,12 +3,11 @@ import { useEffect } from "react";
 
 import MovieCard from "./MovieCard";
 
-//8ae5eaa1
 import './App.css';
 import SearchIcon from './search.svg';
 
 
-const API_URL = 'http://www.omdbapi.com?apikey=8ae5eaa1';
+const API_URL = 'http://www.omdbapi.com?apikey=${API_KEY}';
 
 const movie1 = {
   "Title": "Italian Spiderman",
